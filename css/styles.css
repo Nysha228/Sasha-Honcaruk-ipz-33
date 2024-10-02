@@ -1,12 +1,19 @@
 :root {
-    --primary-color: #212121;
-    --secondary-color: #757575;
-    --background-primary-color: #ffffff;
-    --background-secondary-color: #2f303a;
-    --accent-color: #2196f3;
-    --button-active-color: #188ce8;
-    --transperent-color: #ffffff99;
-    --inactive-filter-color: #f5f4fa;
+    --black: #212121;
+    --grey: #757575;
+    --white: #ffffff;
+    --dark_grey: #2f303a;
+    --blue: #2196f3;
+    --dark-blue: #188ce8;
+    --light-grey: #ffffff99;
+    --white2: #f5f4fa;
+  }
+  .accent-text-logo {
+    color: var(--blue);
+    letter-spacing: 0.03em;
+  }
+  ul {
+    list-style: none;
   }
   
   body {
@@ -14,30 +21,39 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: var(--primary-color);
+    color: var(--black);
   }
   
   footer {
-    background-color: var(--background-secondary-color);
+    background-color: var(--dark_grey);
   }
   
-  .navigation,
-  .contacts,
+  .navigation{
+    letter-spacing:0.02em;
+  }
+  .contacts{
+    letter-spacing:0.02em;
+
+  }
+  .portfolio{
+    letter-spacing:0.02em;
+  }
+
   .gallery,
   .team-list {
     list-style-type: none;
   }
   
-  a:hover,
-  a:focus {
+  a .mail:hover,
+  a .mail:focus {
     transition: 300ms;
-    color: var(--accent-color);
+    color: var(--blue);
   }
   
   button:hover,
   button:focus {
     transition: 300ms;
-    background-color: var(--button-active-color);
+    background-color: var(--dark-blue);
   }
   
   button,
@@ -49,23 +65,31 @@
   }
   
   .btn {
-    background-color: var(--inactive-filter-color);
+    background-color: var(--white2);
     font-weight: 500;
+    color: var(--black);
     line-height: 1.625;
-    letter-spacing: 0.48px;
-  }
-  
-  .active {
-    color: var(--background-primary-color);
-    background-color: var(--accent-color);
+    letter-spacing: 0.03em;
+    border: none;
   }
   
   button {
-    background-color: var(--accent-color);
-    color: var(--background-primary-color);
+    background-color: var(--blue);
+    color: var(--white);
     font-weight: 700;
     line-height: 1.875;
-    letter-spacing: 0.96px;
+  }
+  .info_title {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .info_opus {
+    color: var(--grey);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
   }
   
   a {
@@ -73,7 +97,6 @@
     text-decoration: none;
     color: inherit;
     font-weight: 500;
-    letter-spacing: 0.28px;
   }
   
   .logo {
@@ -81,57 +104,56 @@
     text-decoration: none;
     font-size: 26px;
     font-family: Raleway, sans-serif;
-    letter-spacing: 0.78px;
+    letter-spacing: 0.03em;
   }
   
-  /* logo in footer */
   .logo-footer {
-    color: var(--background-primary-color);
+    color: var(--white);
   }
   
   .contacts a {
     transition: 300ms;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--grey);
   }
   
   h1,
   h2,
   h3 {
     font-weight: 500;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.03em;
   }
   
   .banner h1 {
-    color: var(--background-primary-color);
+    color: var(--white);
     text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
-    letter-spacing: 2.64px;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
   }
   
   .banner {
-    background-color: var(--background-secondary-color);
+    background-color: var(--dark_grey);
   }
   
   .info h3 {
     font-size: inherit;
-    letter-spacing: 0.42px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
   }
   
   .info p {
-    color: var(--secondary-color);
+    color: var(--grey);
     line-height: 1.71;
-    letter-spacing: 0.42px;
+    letter-spacing: 0.03em;
   }
   
   .projects h2,
   .team h2 {
     font-size: 36px;
-    letter-spacing: 1.08px;
+    letter-spacing: 0.03em;
   }
   
   .projects img {
@@ -146,22 +168,30 @@
   
   .team h3 {
     font-size: 16px;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.03em;
     font-weight: 500;
   }
   
   .team p {
-    color: var(--secondary-color);
+    color: var(--grey);
     font-size: 16px;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.03em;
+  }
+  .white {
+    color: var(--white);
   }
   
   footer .logo-footer {
-    color: var(--background-primary-color);
+    color: var(--white);
   }
   
-  footer address {
-    color: var(--inactive-filter-color);
-    letter-spacing: 0.42px;
+  footer address p {
+    color: var(--white2);
+    letter-spacing:0.03em;
+  }
+
+  footer address a {
+    color: var(--grey);
+    letter-spacing: 0.03em;
   }
   
