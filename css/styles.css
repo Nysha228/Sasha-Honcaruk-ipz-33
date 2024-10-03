@@ -62,10 +62,10 @@
   button:hover,
   button:focus {
     transition: 300ms;
-    background-color: var(--dark-blue);
+    background-color: var(--blue);
   }
   .btn_list .btn:hover {
-    color: var(--white);
+    color: var(--white); 
 }
 
   button,
