@@ -8,10 +8,7 @@
     --light-grey: #ffffff99;
     --white2: #f5f4fa;
   }
-  .accent-text-logo {
-    color: var(--blue);
-    letter-spacing: 0.03em;
-  }
+
   address{
     font-style: normal;
   }
@@ -29,8 +26,9 @@
     color: var(--black);
   }
   
-  footer {
-    background-color: var(--dark_grey);
+  .accent-text-logo {
+    color: var(--blue);
+    letter-spacing: 0.03em;
   }
   
   .navigation{
@@ -54,7 +52,7 @@
   .team-list {
     list-style-type: none;
   }
-  
+
   a:hover,
   a:focus {
     transition: 300ms;
@@ -66,7 +64,10 @@
     transition: 300ms;
     background-color: var(--dark-blue);
   }
-  
+  .btn_list .btn:hover {
+    color: var(--white);
+}
+
   button,
   .btn {
     transition: 300ms;
@@ -120,12 +121,14 @@
     font-size: 26px;
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
+    color: var(--black);
+  }
+  header .logo {
+    color: var(--black);
   }
   
-  .logo-footer {
-    color: var(--white);
-  }
-  
+
+
   .contacts a {
     transition: 300ms;
     text-decoration: none;
@@ -194,6 +197,9 @@
   }
   .white {
     color: var(--white);
+  }
+  footer {
+    background-color: var(--dark_grey);
   }
   
   footer .logo-footer {
