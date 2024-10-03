@@ -12,6 +12,11 @@
     color: var(--blue);
     letter-spacing: 0.03em;
   }
+  address{
+    font-style: normal;
+  }
+
+
   ul {
     list-style: none;
   }
@@ -33,6 +38,12 @@
   }
   .contacts{
     letter-spacing:0.02em;
+    a:hover,
+    a:focus {
+      transition: 300ms;
+      color: var(--blue);
+    }
+    
 
   }
   .portfolio{
@@ -44,8 +55,8 @@
     list-style-type: none;
   }
   
-  a .mail:hover,
-  a .mail:focus {
+  a:hover,
+  a:focus {
     transition: 300ms;
     color: var(--blue);
   }
@@ -73,6 +84,10 @@
     border: none;
   }
   
+  .product-description {
+    color: var(--grey);
+}
+
   button {
     background-color: var(--blue);
     color: var(--white);
@@ -187,11 +202,18 @@
   
   footer address p {
     color: var(--white2);
-    letter-spacing:0.03em;
+    letter-spacing:0.0em;
   }
 
   footer address a {
     color: var(--grey);
     letter-spacing: 0.03em;
   }
-  
+  .logo-footer {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    color:#ffffff;
+  }
