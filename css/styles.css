@@ -87,11 +87,14 @@
     color: var(--grey);
 }
 
+
   button {
     background-color: var(--blue);
     color: var(--white);
     font-weight: 700;
     line-height: 1.875;
+    border: none;
+    outline: none; 
   }
   .info_title {
     font-size: 14px;
