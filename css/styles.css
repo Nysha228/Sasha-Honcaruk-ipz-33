@@ -1,0 +1,227 @@
+:root {
+    --black: #212121;
+    --grey: #757575;
+    --white: #ffffff;
+    --dark_grey: #2f303a;
+    --blue: #2196f3;
+    --dark-blue: #188ce8;
+    --light-grey: #ffffff99;
+    --white2: #f5f4fa;
+  }
+
+  address{
+    font-style: normal;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black);
+  }
+  
+  
+  .accent-text-logo {
+    color: var(--blue);
+    letter-spacing: 0.03em;
+  }
+  
+  .navigation{
+    letter-spacing:0.02em;
+  }
+  .contacts{
+    letter-spacing:0.02em;
+    a:hover,
+    a:focus {
+      transition: 300ms;
+      color: var(--blue);
+    }
+
+
+  }
+  .portfolio{
+    letter-spacing:0.02em;
+  }
+
+  .gallery,
+  .team-list {
+    list-style-type: none;
+  }
+
+  a:hover,
+  a:focus {
+    transition: 300ms;
+    color: var(--blue);
+  }
+  
+  button:hover,
+  button:focus {
+    transition: 300ms;
+    background-color: var(--dark-blue);
+  }
+  
+  button,
+  .btn {
+    transition: 300ms;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: var(--white2);
+    font-weight: 500;
+    color: var(--black);
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    border: none;
+  }
+  
+  .product-description {
+    color: var(--grey);
+}
+
+
+  button {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    line-height: 1.875;
+    border: none;
+    outline: none; 
+  }
+  .info_title {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .info_opus {
+    color: var(--grey);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  a {
+    transition: 300ms;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+  }
+  
+  .logo {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--black);
+  }
+  header .logo {
+    color: var(--black);
+  }
+  .btn_list .btn:hover {
+    color: var(--white); 
+  }
+
+  .contacts a {
+    transition: 300ms;
+    text-decoration: none;
+    color: var(--grey);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+  
+  .banner h1 {
+    color: var(--white);
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  
+  .banner {
+    background-color: var(--dark_grey);
+  }
+  
+  .info h3 {
+    font-size: inherit;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .info p {
+    color: var(--grey);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  .projects h2,
+  .team h2 {
+    font-size: 36px;
+    letter-spacing: 0.03em;
+  }
+  
+  .projects img {
+    width: 370px;
+    height: 294px;
+  }
+  
+  .team img {
+    width: 270px;
+    height: 260px;
+  }
+  
+  .team h3 {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+  }
+  
+  .team p {
+    color: var(--grey);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+  }
+  .white {
+    color: var(--white);
+  }
+  footer {
+    background-color: var(--dark_grey);
+  }
+  
+  footer .logo-footer {
+    color: var(--white);
+  }
+  
+  footer address p {
+    color: var(--white2);
+    letter-spacing:0.0em;
+  }
+
+  footer address a {
+    color: var(--grey);
+    letter-spacing: 0.03em;
+  }
+  .logo-footer {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    color:#ffffff;
+  }
