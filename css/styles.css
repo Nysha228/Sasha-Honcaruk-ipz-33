@@ -17,34 +17,62 @@
   ul {
     list-style: none;
   }
-  
+
   body {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     color: var(--black);
+    margin: 0 auto;
   }
-  
-  
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  header .container {
+    display: flex;
+    align-items: center;
+  }
   .accent-text-logo {
     color: var(--blue);
     letter-spacing: 0.03em;
+    
   }
   
   .navigation{
     letter-spacing:0.02em;
+    display: flex;
+    gap: 50px;
+
   }
+  
   .contacts{
     letter-spacing:0.02em;
+    display: flex;
+    gap: 50px;
     a:hover,
     a:focus {
       transition: 300ms;
       color: var(--blue);
     }
-
-
   }
+  .contacts a:nth-child(1) {
+    width: 135px;
+    height: 16px;
+    left: 1088px;
+    top: 32px;
+  } 
+
+  .contacts a:nth-child(2) {
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+  }
+
   .portfolio{
     letter-spacing:0.02em;
   }
@@ -96,18 +124,7 @@
     border: none;
     outline: none; 
   }
-  .info_title {
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
-  .info_opus {
-    color: var(--grey);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
+
   
   a {
     transition: 300ms;
@@ -123,10 +140,21 @@
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
     color: var(--black);
+    margin-right: 93px;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
   }
   header .logo {
     color: var(--black);
+    
   }
+  
   .btn_list .btn:hover {
     color: var(--white); 
   }
@@ -152,10 +180,27 @@
     line-height: 1.363;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
   }
-  
+
   .banner {
     background-color: var(--dark_grey);
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+
   }
   
   .info h3 {
