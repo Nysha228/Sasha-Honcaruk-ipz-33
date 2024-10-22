@@ -33,13 +33,50 @@
     padding: 0 15px;
     
 }
-  header .container {
-    display: flex;
-    align-items: center;
-    width: 1600px;
-    height: 80px;
-    background: #FFFFFF;
-  }
+header .logo,
+footer .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+header .logo{
+    margin-top:25px;
+    margin-left: auto;
+}
+header{
+  line-height: 1.172;
+  font-weight: 500;
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+nav{
+  margin-left:93px;
+}
+.menu{
+  display: flex;
+  letter-spacing: 0.02em;
+  margin:32px auto;
+}
+header.logo{
+  margin: 24px 93px 25px 215px;
+}
+.menu a {
+  margin-right:50px;
+}
+header ul{
+  margin: 32px auto 32px auto;
+}
+.nummail{
+  margin:32px auto 32px 304px ;
+  letter-spacing: 0.02em;
+}
+.nummail a{
+  color: var(--grey);
+}
+.nummail .info{
+  margin-right: 40px;
+}
   .accent-text-logo {
     color: var(--blue);
     letter-spacing: 0.03em;
@@ -50,16 +87,17 @@
     letter-spacing:0.02em;
     display: flex;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin: 32px auto;
   }
-  
+  .navigation a{
+    margin-right: 50px;
+  }
   .contacts{
     letter-spacing:0.02em;
     display: flex;
-    gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     a:hover,
     a:focus {
       transition: 300ms;
@@ -107,12 +145,12 @@
   }
   
   button,
-  .btn {
+.btn {
     transition: 300ms;
     font-family: inherit;
     font-size: 16px;
     cursor: pointer;
-    
+
   }
   
   .btn {
@@ -162,15 +200,11 @@
     letter-spacing: 0.03em;
     color: var(--black);
     margin-right: 93px;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
+    margin-left: 215px;
+    margin-top: 24px;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-
-    padding-bottom: 25px;
 
   }
   header .logo {
@@ -203,7 +237,6 @@
     line-height: 1.363;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    position: absolute;
     width: 696px;
     height: 120px;
     left: 452px;
@@ -220,7 +253,6 @@
     background-color: var(--dark_grey);
 /* Шапка */
 
-position: absolute;
 width: 1600px;
 height: 600px;
 left: 0px;
