@@ -50,10 +50,8 @@ header{
   width: 100%;
   height: 80px;
 }
-nav{
-  margin-left:93px;
-}
-.menu{
+
+.navigation{
   display: flex;
   letter-spacing: 0.02em;
   margin:32px auto;
@@ -61,20 +59,20 @@ nav{
 header.logo{
   margin: 24px 93px 25px 215px;
 }
-.menu a {
+.navigation a {
   margin-right:50px;
 }
 header ul{
   margin: 32px auto 32px auto;
 }
-.nummail{
+.contacts{
   margin:32px auto 32px 304px ;
   letter-spacing: 0.02em;
 }
-.nummail a{
+.contacts a{
   color: var(--grey);
 }
-.nummail .info{
+.contacts .info{
   margin-right: 40px;
 }
   .accent-text-logo {
@@ -83,15 +81,6 @@ header ul{
     
   }
   
-  .navigation{
-    letter-spacing:0.02em;
-    display: flex;
-    gap: 50px;
-    margin: 32px auto;
-  }
-  .navigation a{
-    margin-right: 50px;
-  }
   .contacts{
     letter-spacing:0.02em;
     display: flex;
@@ -251,16 +240,10 @@ header ul{
 
   .banner {
     background-color: var(--dark_grey);
-/* Шапка */
-
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-
-
-
-
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
   }
   
   .info h3 {
