@@ -58,64 +58,35 @@ header{
   width: 100%;
   height: 80px;
 }
-
-.navigation{
-  display: flex;
-  letter-spacing: 0.02em;
-  margin:32px auto;
-}
-
-.navigation a {
-  margin-right:50px;
+nav{
+  margin-left:93px;
 }
 header ul{
   margin: 32px auto 32px auto;
 }
-.contacts{
-  margin:32px auto 32px 304px ;
-  letter-spacing: 0.02em;
+.accent-text-logo {
+  color: var(--blue);
+  letter-spacing: 0.03em;
 }
-.contacts a{
-  color: var(--grey);
+.navigation{
+  align-items: center;
+  letter-spacing:0.02em;
+  display: flex;
+  gap: 50px;
+  margin: 0 auto;
 }
-.contacts .info{
-  margin-right: 40px;
-}
-  .accent-text-logo {
-    color: var(--blue);
-    letter-spacing: 0.03em;
-    
-  }
+
   
   .contacts{
     letter-spacing:0.02em;
     display: flex;
     gap: 40px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-left: auto;
     a:hover,
     a:focus {
       transition: 300ms;
       color: var(--blue);
     }
-  }
-  .contacts a:nth-child(1) {
-    width: 135px;
-    height: 16px;
-    left: 1088px;
-    top: 32px;
-    padding-left: 354px;
-    padding-right: 40px;
-  } 
-
-  .contacts a:nth-child(2) {
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    padding-left: 40px;
-    padding-right: 215px;
-
   }
 
   .portfolio{
