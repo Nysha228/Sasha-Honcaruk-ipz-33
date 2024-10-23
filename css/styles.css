@@ -271,6 +271,29 @@ section{
   padding: 6px 22px;
   border-radius: 5px;
 }
+.btn_list li {
+  margin-right: 8px;
+}
+.btn:last-child{
+  margin-right: 0px;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1170px; 
+  grid-gap: 30px;
+  padding-bottom: 94px;
+}
+.products_list li {
+  display: block;
+  max-width: 370px;  
+}
+
   .projects h2,
   .team h2 {
     font-size: 36px;
