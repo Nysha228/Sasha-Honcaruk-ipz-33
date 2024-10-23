@@ -222,19 +222,55 @@ section{
     text-align: center; 
     margin-top: 0px;
   }
-  
+  .inform {
+    display: flex;
+    padding: 0;
+  }
+  .inform li:last-child {
+    margin-right: 0; 
+  }
+  .inform li {
+    margin-right: 30px;
+  }
+  .inform p{
+    width: 270px;
+  }
+  .projects {
+    text-align: center;
+  }
+  .projects h2 {
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+  .projects ul {
+    display: flex;
+    padding: 0;
+  }
+  .projects li{
+    margin-right: 30px;
+  }
+  .projects li:last-child{
+    margin-right: 0px;
+  }
   .info h3 {
     font-size: inherit;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
   
-  .info p {
-    color: var(--grey);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-  
+  .buttons{
+    display: flex;
+    margin-bottom:50px;
+   
+}
+.btn{
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  padding: 6px 22px;
+  border-radius: 5px;
+}
   .projects h2,
   .team h2 {
     font-size: 36px;
