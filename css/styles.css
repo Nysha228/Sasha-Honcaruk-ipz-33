@@ -139,9 +139,12 @@ header ul{
   .team-list {
     list-style-type: none;
   }
+
+
 .team{
   background-color: #f5f4fa;
 }
+
   a:hover,
   a:focus {
     transition: 300ms;
@@ -182,6 +185,48 @@ header ul{
     color: var(--svg-icons);
     fill: currentColor;
     transition: all 300ms ease-in-out;
+}
+.team-title,
+.customers-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.customers {
+  text-align: center;
+  padding: 94px 0;
+  margin: 0;
+}
+
+.customers-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+
+  a {
+      border-radius: 4px;
+      border: 1px var(--svg-icons) solid;
+      display: inline-block;
+      color: var(--svg-icons);
+      transition: color 0.5s, border 0.5s;
+  }
+
+  a:hover, a:focus {
+      color: var(--blue);
+      border: 1px var(--blue) solid;
+  }
+}
+
+.customers-svg {
+  width: 100%;
+  height: 100%;
+  padding: 16px 32px;
+  fill: currentColor;
+  transition: fill 0.5s;
 }
   
   button,
