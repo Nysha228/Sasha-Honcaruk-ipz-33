@@ -114,6 +114,21 @@ header ul{
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.info-section-svg {
+  max-width: 270px;
+}
+
+.info-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--white_button);
+  border-radius: 4px;
+}
+
   .portfolio{
     letter-spacing:0.02em;
   }
