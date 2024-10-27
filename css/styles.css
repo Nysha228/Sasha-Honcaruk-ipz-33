@@ -101,7 +101,7 @@ header ul{
     fill: currentColor;
 }
 
-.title {
+.info-title {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -109,7 +109,7 @@ header ul{
   margin-bottom: 10px;
 }
 
-.opus-pid-title {
+.info-opus-pid-title {
   color: var(--grey);
   line-height: 1.71;
   letter-spacing: 0.03em;
