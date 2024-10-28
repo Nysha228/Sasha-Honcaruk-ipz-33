@@ -29,6 +29,7 @@
 
   a,p,h1,h2,h3,li{
     margin: 0;
+    padding: 0;
   }
 
   body {
@@ -102,6 +103,15 @@ header ul{
     align-self: center;
     fill: currentColor;
 }
+.banner{
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url("../images/banner-photo.jpg") center/cover no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .info-title {
   font-size: 14px;
@@ -127,7 +137,7 @@ header ul{
   align-items: center;
   padding: 25px 100px;
   margin-bottom: 30px;
-  background-color: var(--white_button);
+  background-color: var(--white2);
   border-radius: 4px;
 }
 
@@ -156,7 +166,9 @@ header ul{
     transition: 300ms;
     background-color: var(--dark-blue);
   }
-
+.team-title{
+  font-weight: 100%;
+}
   .team-social-networks {
     display: flex;
     width: 100%;
@@ -186,6 +198,7 @@ header ul{
     fill: currentColor;
     transition: all 300ms ease-in-out;
 }
+.projects-title,
 .team-title,
 .customers-title {
   text-align: center;
@@ -194,7 +207,6 @@ header ul{
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-
 .customers {
   text-align: center;
   padding: 94px 0;
@@ -263,6 +275,8 @@ header ul{
     border: none;
   }
 
+  
+   
   
   a {
     transition: 300ms;
@@ -509,13 +523,26 @@ section{
   }
   footer {
     background-color: var(--dark_grey);
+    align-items: baseline;
+   
+  .container{
+    display: flex;
+    gap: 80px;
+    align-items: baseline;
+    justify-content: start;
+
   }
+  }
+  
+  
 
     footer .logo-footer {
       color: var(--white);
       
     }
-
+    .footer-adress {
+      width: auto;
+  }
     footer address {
       font-style: normal;
       margin-top: 28px;
@@ -548,4 +575,48 @@ section{
   footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+.footer-svg{
+  height: 80px;
+  width: 206px;
+
 }
+  .footer-text-title {
+      color: var(--white);
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+  }
+  
+  .footer-socials-networks {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+  
+      li {
+          height: 44px;
+          width: 44px;
+      }
+  
+      .social-networks-link {
+          display: flex;
+          align-items: center;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.1);
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          color: var(--white);
+          fill: currentColor;
+      }
+  
+      .social-networks-link:hover,
+      .social-networks-link:focus {
+          color: var(--white);
+          fill: currentColor;
+          background-color: var(--blue);
+      }
+    }
