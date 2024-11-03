@@ -533,7 +533,9 @@ section{
   }
   }
   
-  
+  .adres{
+    color: var(--white);
+  }
 
     footer .logo-footer {
       color: var(--white);
