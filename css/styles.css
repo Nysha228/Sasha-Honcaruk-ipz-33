@@ -704,27 +704,23 @@ section{
           width: 44px;
       }
   
-      .social-networks-link {
-          display: flex;
-          align-items: center;
-          border-radius: 50%;
-          background: rgba(255, 255, 255, 0.1);
-          width: 100%;
-          height: 100%;
-          justify-content: center;
-          color: var(--white);
-          fill: currentColor;
-      }
+.social-networks-link {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: var(--white);
+  fill: currentColor;
+  }
   
-      .social-networks-link:hover,
-      .social-networks-link:focus {
-          color: var(--white);
-          fill: currentColor;
-          background-color: var(--blue);
-      }
+.social-networks-link:hover,
+.social-networks-link:focus {
+  color: var(--white);
+  fill: currentColor;
+  background-color: var(--blue);
     }
-
-
-
-    
-    
+  }
+}
