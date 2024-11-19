@@ -40,9 +40,20 @@
         <section class="banner">
             <div class="container">
                 <h1>Ефективне рішення для вашого бізнесу</h1>
-                <button class="banner-button" type="button">Замовити послугу</button>
+                <button class="banner-button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
+
+        <div class="overlay is-hidden" data-modal>
+            <div class="popup">
+                <button type="button" class="popup__close-button" data-modal-close>
+                    <svg class="popup__close-icon">
+                        <use href="./images/svg/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
 
         <section class="info">
             <div class="container">
@@ -372,8 +383,6 @@
                 </ul>
             </div>
         </div>
-
-        
     </footer>
 </body>
 </html>
