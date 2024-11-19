@@ -40,9 +40,20 @@
         <section class="banner">
             <div class="container">
                 <h1>Ефективне рішення для вашого бізнесу</h1>
-                <button class="banner-button" type="button">Замовити послугу</button>
+                <button class="banner-button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
+
+        <div class="overlay is-hidden" data-modal>
+            <div class="popup">
+                <button type="button" class="popup__close-button" data-modal-close>
+                    <svg class="popup__close-icon">
+                        <use href="./images/svg/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
 
         <section class="info">
             <div class="container">
@@ -97,14 +108,26 @@
             <div class="container">
                 <h2 class="projects-title">Чим ми займаємося</h2>
                     <ul class="gallery">
-                        <li class="project-img"><img src="./images/img-1.jpg" width="370" height="294" alt="Розробка моб додатків"></li>
-                        <li class="project-img"><img src="./images/img-2.jpg" width="370" height="294" alt="Розробка ПЗ"></li>
-                        <li class="project-img"><img src="./images/img-3.jpg" width="370" height="294" alt="Веб розобка"></li>
+                        <li class="project-img"><img src="./images/img-1.jpg" width="370" height="294" alt="Розробка моб додатків">
+                            <div class="projects-background">
+                                <p class="projects-text">Десктопні додатки</p>
+                            </div>    
+                        </li>
+                        <li class="project-img"><img src="./images/img-2.jpg" width="370" height="294" alt="Розробка ПЗ">
+                            <div class="projects-background">
+                                <p class="projects-text">Мобільні додатки</p>
+                            </div>   
+                        </li>
+                        <li class="project-img"><img src="./images/img-3.jpg" width="370" height="294" alt="Веб розобка">
+                            <div class="projects-background">
+                                <p class="projects-text">Дизайнерські рішення</p>
+                            </div>  
+                        </li>
                     </ul>
             </div>
         </section>
 
-
+        
         <section class="team">
             <div class="container">
                 <h2 class="team-title">Наша команда</h2>
@@ -360,8 +383,6 @@
                 </ul>
             </div>
         </div>
-
-        
     </footer>
 </body>
 </html>
